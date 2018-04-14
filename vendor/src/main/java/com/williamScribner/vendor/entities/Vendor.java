@@ -1,8 +1,10 @@
 package com.williamScribner.vendor.entities;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+@Entity
 public class Vendor {
 	@Id
 	@GeneratedValue
